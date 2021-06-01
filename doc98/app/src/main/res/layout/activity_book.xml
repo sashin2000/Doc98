@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/text_view_name"
+        android:textSize="20sp"
+        android:gravity="center_vertical">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/name_hint"
+        android:textSize="20sp"
+        android:id="@+id/name">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/text_view_email"
+        android:textSize="20sp"
+        android:gravity="center_vertical">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/email_hint"
+        android:textSize="20sp"
+        android:id="@+id/email">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/text_view_nic"
+        android:textSize="20sp"
+        android:gravity="center_vertical">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/nic_hint"
+        android:textSize="20sp"
+        android:id="@+id/nic">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/text_view_mobile"
+        android:textSize="20sp"
+        android:gravity="center_vertical">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/mobile_hint"
+        android:textSize="20sp"
+        android:id="@+id/mobile">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/text_view_password"
+        android:textSize="20sp"
+        android:gravity="center_vertical">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/password_hint"
+        android:textSize="20sp"
+        android:id="@+id/password"
+        android:layout_marginBottom="20dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:onClick="confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_confirm"
+            android:textSize="24sp"
+            android:textColor="@color/colorTextIcons"
+            android:background="@drawable/my_button"
+            android:layout_marginRight="10dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_back"
+            android:textSize="24sp"
+            android:textColor="@color/colorTextIcons"
+            android:background="@drawable/my_button"
+            android:layout_marginLeft="10dp">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

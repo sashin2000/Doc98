@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_insert_invitation_24"
+        android:background="@color/colorPrimary"
+        android:padding="5dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="3"
+        android:paddingLeft="8sp"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Doctor Name"
+        android:textSize="22sp"
+        android:textColor="@color/colorTextPrimary"
+        android:padding="3dp"
+        android:id="@+id/doctor_name">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Speciality"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextPrimary"
+            android:padding="3dp"
+            android:id="@+id/speciality_name">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="2020-09-10 15:30"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextSecondary"
+            android:padding="3dp"
+            android:id="@+id/date">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hospital Name"
+            android:textSize="15sp"
+            android:textColor="@color/colorTextSecondary"
+            android:padding="3dp"
+            android:id="@+id/hospital_name">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="#FF1744"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:text="@string/btn_book_now"
+                android:textSize="22sp"
+                android:textColor="@color/colorTextIcons"
+                android:background="@drawable/my_button"
+                android:onClick="book">
+
+            </Button>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/session_id">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

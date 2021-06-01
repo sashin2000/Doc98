@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Doc 980</string>
+    <string name="text_view_date">Date</string>
+    <string name="text_view_speciality">Speciality</string>
+    <string name="text_view_doctor">Doctor</string>
+    <string name="text_view_hospital">Hospital</string>
+
+    <string name="text_view_name">Name</string>
+    <string name="text_view_email">Email</string>
+    <string name="text_view_nic">NIC</string>
+    <string name="text_view_mobile">Mobile</string>
+    <string name="text_view_password">Password</string>
+
+    <string name="date_hint">Select a Date here</string>
+    <string name="speciality_hint">Select Speciality</string>
+    <string name="doctor_hint">Select a Doctor</string>
+    <string name="hospital_hint">Select a Hospital</string>
+
+    <string name="name_hint">Type your Name</string>
+    <string name="email_hint">Type your Email</string>
+    <string name="nic_hint">Type your NIC</string>
+    <string name="mobile_hint">Type your Mobile</string>
+    <string name="password_hint">Type your Password</string>
+
+    <string name="btn_search">SEARCH</string>
+    <string name="btn_reset">RESET</string>
+    <string name="btn_book_now">BOOK NOW</string>
+
+    <string name="btn_back">BACK</string>
+    <string name="btn_confirm">CONFIRM</string>
+</resources>
